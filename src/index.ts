@@ -4,6 +4,7 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 const typeDefs = `#graphql
  type Book {
     title: String
+    name: String
     author: String
   }
 
@@ -20,6 +21,7 @@ const books = [
   },
   {
     title: "City of Glass",
+    name: "Paul Auster",
     author: "Paul Auster",
   },
 ];
